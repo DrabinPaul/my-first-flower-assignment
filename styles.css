@@ -36,6 +36,7 @@ header {
     font-size: 15px;
     margin-bottom: 25px;
     line-height: 25px;
+    font-weight: 400;
 }
 
 .banner-image {
@@ -54,11 +55,8 @@ header {
     cursor: pointer;
 }
 
-/* main section styles */
-/* main {
-    max-width: 1140px;
-    margin: 0px auto;
-} */
+/* featured section styles */
+
 .featured-section {
     text-align: center;
     padding: 20px 130px;
@@ -80,7 +78,6 @@ header {
     margin-top: 20px;
 }
 
-/* featured section styles  */
 .featured-container {
     display: flex;
     align-items: center;
@@ -227,22 +224,22 @@ header {
     margin: 0px auto;
     display: block;
     background: url(images/Rectangle\ 9.png);
-    /* text-align: center; */
-    /* align-items: center; */
+    text-align: center;
+    align-items: center;
     padding: 100px;
     border-radius: 8px;
     margin-top: 130px;
 }
 
-.signup-text h2 {
+.signup-title {
     text-align: center;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.signup-text p {
+.signup-description{
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -250,23 +247,57 @@ header {
     line-height: 30px;
     margin-bottom: 40px;
 }
-
-
-.signup-box {
+.signup-box{
+    width: 50%;
     display: flex;
     gap: 10px;
-    justify-content: center;
-    
+    margin-left:200px ;
 }
-
-/* .submit {
-} */
 .submit input {
-    
     color: rgba(39, 39, 39, 0.60);
     background: #FFF;
     border: none;
     border-radius: 8px;
-    padding: 20px 230px;
+    padding: 20px 30px;
+    width: 500px;
 }
 
+/* footer styles  */
+
+footer {
+    background: #111010;
+    margin-top: 90px;
+}
+
+.end-area {
+    display: block;
+    margin-top: 140px;
+    padding: 80px;
+    text-align: center;
+}
+
+.end-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.end-title span {
+    color: #E55473;
+}
+
+.end-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
